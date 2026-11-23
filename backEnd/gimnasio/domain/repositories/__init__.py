@@ -1,0 +1,5 @@
+from .plan_repository import PlanRepository
+from .instructor_repository import InstructorRepository
+from .socio_repository import SocioRepository
+from .clase_repository import ClaseRepository
+from .inscripcion_repository import InscripcionRepository

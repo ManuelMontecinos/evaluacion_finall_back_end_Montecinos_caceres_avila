@@ -1,0 +1,3 @@
+from .plan_repository import DjangoPlanRepository
+from .instructor_repository import DjangoInstructorRepository
+from .socio_repository import DjangoSocioRepository
