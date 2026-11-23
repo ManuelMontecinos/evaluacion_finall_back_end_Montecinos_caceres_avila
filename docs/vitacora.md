@@ -32,16 +32,7 @@ En la parte de Django creé el entorno virtual, instalé las dependencias (Djang
 **Uso de IA**
 Usé Claude para analizar el enunciado y el manual, para proponer las columnas de las tablas y para redactar borradores del diccionario, de los scripts SQL y de los datos de ejemplo. Ejecuté los scripts en mi esquema, revisé el resultado en FreeSQL y probé la conexión yo mismo.
 
-**Próxima semana**
-Escribir las capas hexagonales: entidades, puertos, excepciones, casos de uso de las maestras, modelos y repositorios.
 
-### Claudio Cáceres
-
-(Completar: qué hice, archivos, problemas y cómo los resolví, uso de IA y qué haré la próxima semana. Ejecuté los scripts SQL en mi propio esquema de FreeSQL.)
-
-### Giovanni Ávila
-
-(Completar: qué hice, archivos, problemas y cómo los resolví, uso de IA y qué haré la próxima semana. Ejecuté los scripts SQL en mi propio esquema de FreeSQL.)
 
 ---
 
@@ -61,14 +52,9 @@ Me encargué de la entidad `instructores` y de lo compartido. Escribí la entida
 - `backEnd/gimnasio/infrastructure/repositories/instructor_repository.py`
 - Los cinco `__init__.py` de `domain/entities`, `domain/repositories`, `application/use_cases`, `infrastructure/models` e `infrastructure/repositories`
 
-**Problemas y cómo los resolví**
-Al copiar la carpeta `gimnasio` sobre la existente, Windows la reemplazó completa y GitHub Desktop mostró 16 archivos como eliminados: eran los archivos de Claudio, que yo ya había traído con el Pull. Para no subir esos borrados desmarqué los archivos eliminados, hice el commit solo con los 11 archivos míos y después descarté los cambios de los eliminados para recuperar los archivos de Claudio.
 
-**Uso de IA**
-Usé Claude para generar el código base de las capas siguiendo el patrón del manual adaptado a nuestro problema, y para repartir los archivos entre Claudio y yo. Revisé mis archivos, los subí con mi cuenta y probé los casos de uso de instructores desde `python manage.py shell` contra mi esquema de Oracle.
 
-**Próxima semana**
-Casos de uso de clases e inscripciones con las reglas R1, R2 y R3 y las transiciones de estado, panel de administración, grupos y permisos, y login con cookie HttpOnly y CSRF.
+
 
 ### Claudio Cáceres · planes, socios, clases e inscripciones
 
@@ -81,12 +67,3 @@ Me encargué de las entidades `planes`, `socios`, `clases` e `inscripciones`. Es
 - `backEnd/gimnasio/application/use_cases/`: `plan_use_cases.py`, `socio_use_cases.py`
 - `backEnd/gimnasio/infrastructure/models/`: `plan.py`, `socio.py`, `clase.py`, `inscripcion.py`
 - `backEnd/gimnasio/infrastructure/repositories/`: `plan_repository.py`, `socio_repository.py`
-
-**Problemas y cómo los resolví**
-(Completar.)
-
-**Uso de IA**
-(Completar.)
-
-**Próxima semana**
-(Completar.)
